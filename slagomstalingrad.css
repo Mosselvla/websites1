@@ -1,0 +1,69 @@
+header{
+	font-family: Arial;
+	font-size: xx-large;
+	color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+
+}
+
+body{
+	background-image: url("http://i.telegraph.co.uk/multimedia/archive/02468/stalingrad_2468823k.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+nav { 
+    border: 1px solid black;
+    display: block;
+    width: 150px;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav ul:hover {
+    background-color: red;
+    
+}
+
+nav ul ul{
+	list-style-type: none;
+	padding: 0;
+	display: none;
+	
+}
+
+nav ul ul:hover {
+	background-color: red;
+}
+
+
+
+#intro{
+	font-family: Arial;
+	font-size: medium;
+	text-align: center;
+	
+}
+
+footer{
+	font-family: Arial;
+	font-size: small;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
