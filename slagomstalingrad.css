@@ -1,7 +1,13 @@
+@font-face{
+	font-family: propaganda;
+	src: url(propaganda.tff);
+	font-weight: bold;
+}
+
 header{
-	font-family: Verdana;
+	font-family: propaganda;
 	font-size: xx-large;
-	color: grey;
+	color: darkred;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;	
@@ -11,26 +17,25 @@ header{
 body{
 	background-image: url("http://i.telegraph.co.uk/multimedia/archive/02468/stalingrad_2468823k.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	
+	background-size: cover;	
 }
 
 #mainmenu{
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 nav { 
-    border: 1px solid black;
+    border: 3px solid black;
     display: block;
 	height: 70px;
     width: 100%;
     background-color: darkred;
     color: white;
-    /*padding: 5px;*/
     text-decoration: none;
     text-align: center;
-    font-family: Verdana;
+    font-family: propaganda;
 	text-decoration: none;
 	
 }
@@ -39,6 +44,7 @@ nav ul {
     list-style-type: none;
 	color: white;
 	text-decoration: none;
+	display: inline-block;
 
 }
 
@@ -56,24 +62,18 @@ nav ul li:hover {
 
 nav ul ul{
 	list-style-type: none;
-	padding: 0;
 	display: none;
 	text-decoration: none;
 	text-align: center;
 	
 }
 
-nav ul ul:hover {
-	background-color: red;
-}
-
 nav li:hover > ul {
     display: block;
 }
 
-
 #intro{
-	font-family: Verdana;
+	font-family: propaganda;
 	font-size: medium;
 	text-align: center;
 	
@@ -86,8 +86,26 @@ nav li:hover > ul {
 	font-size: medium;
 	text-align: left;
 	color: white;
-	border: 2px solid darkred;
-	text-shadow: 0 0 5px white, 0 0 3px grey
+	border: 1px solid black;
+	text-shadow: 0 0 5px white, 0 0 3px grey;
+	float: left;
+}
+
+#stuk1pic1{
+	float: right;
+	width: 200px;
+}
+
+#stuk2{
+	padding: 10px;
+	background-color: darkred;
+	font-family: Verdana;
+	font-size: medium;
+	text-align: left;
+	color: white;
+	border: 1px solid black;
+	text-shadow: 0 0 5px white, 0 0 3px grey;
+	float: left;
 }
 
 footer{
@@ -97,7 +115,7 @@ footer{
 	margin-right: auto;
 	text-align: center;
 	color: white;
-	text-shadow: 0 0 3px #ff0000,0 0 5px #0000ff
+	text-shadow: 0 0 3px #ff0000,0 0 5px #0000ff;
 	
 }
 nav ul a{
